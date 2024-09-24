@@ -1,0 +1,84 @@
+/* Estructura general */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-image: url('1.png'); /* Imagen de fondo */
+  background-size: cover;
+  background-position: left center;
+}
+
+.login-box {
+  margin-left: auto; /* Coloca el formulario a la derecha */
+  width: 450px; /* Ancho limitado del formulario */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 130px; /* Espacio desde el borde derecho */
+  margin-bottom: 300px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.h1 {
+  color: #063254;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.p1 {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-color: #063254;
+  border-radius: 5px;
+}
+
+.init {
+  width: 150px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #063254;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.tfinal {
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tfinal2 {
+  color: #063254;
+  font-weight: bold;
+  text-align: center;
+}
+
